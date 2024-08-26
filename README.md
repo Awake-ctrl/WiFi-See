@@ -101,5 +101,19 @@ Using the Rasberry:
         Install VNC:
             sudo apt install realvnc-vnc-server
             Enable VNC in Raspberry Pi Configuration.
-                
+
+
+overally:
+after software development:
+    upgrade your system:
+        sudo apt-get update
+        sudo apt-get upgrade
+    install necessary packages:
+        sudo apt-get install python3-pip python3-dev
+    install required libraries:
+        pip3 install tflite-runtime
+        pip3 install numpy pandas scikit-learn
+    make the collect_data.py
+    make the train_model.py
+    make the predict.py
         
